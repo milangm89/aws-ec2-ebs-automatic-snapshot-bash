@@ -8,12 +8,6 @@ set -o pipefail
 
 ## Automatic EBS Volume Snapshot Creation & Clean-Up Script
 #
-# Written by Casey Labs Inc. (https://www.caseylabs.com)
-# Contact us for all your Amazon Web Services Consulting needs!
-# Script Github repo: https://github.com/CaseyLabs/aws-ec2-ebs-automatic-snapshot-bash
-#
-# Additonal credits: Log function by Alan Franzoni; Pre-req check by Colin Johnson
-#
 # PURPOSE: This Bash script can be used to take automatic snapshots of your Linux EC2 instance. Script process:
 # - Determine the instance ID of the EC2 server on which the script runs
 # - Gather a list of all volume IDs attached to that instance
